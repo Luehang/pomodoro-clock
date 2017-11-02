@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Pomodoro Clock</h1>
+    <div id="timer-container">
+      <div id="timer-box">
+        <h2 id="timer-type"></h2>
+        <div class="timer-container">
+          <p id="timer"></p>
+        </div>
+      </div>
+      <audio id="alarm" src="http://wavs.unclebubby.com/wav/SOUNDFX/watchalm.wav" type="audio/wav" preload />
+    </div>
+    <div class="full-container">
+      <div class="setting-container">
+        <h3>Break Time (min.)</h3>
+        <div class="setting-box clearfix">
+          <p id="subtractBreak">-</p>
+          <p id="breaktime"></p>
+          <p id="addBreak">+</p>
+        </div>
+      </div>
+      <div class="setting-container">
+        <h3>Session (min.)</h3>
+        <div class="setting-box clearfix">
+          <p id="subtractWork">-</p>
+          <p id="worktime"></p>
+          <p id="addWork">+</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

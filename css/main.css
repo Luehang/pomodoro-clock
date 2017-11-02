@@ -1,0 +1,145 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://static.pexels.com/photos/9352/glass-time-watch-business.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  font-family: 'Comfortaa', Trebuchet MS;
+}
+
+body h1 {
+  font-family: 'Baloo Bhaina', Copperplate;
+  font-weight: normal;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #cc0000;
+}
+
+.timer-container {
+  text-align: left;
+  margin: 0 auto;
+  color: #cc0000;
+  width: 310px;
+}
+
+#timer {
+  margin: 0 0 0 38px;
+  font-size: 90px;
+  color: #cc0000;
+}
+
+h3 {
+  font-size: 12px;
+  margin: 0;
+}
+
+#breaktime,
+#worktime {
+  width: 60px;
+  margin: 0;
+  font-size: 30px;
+  padding-top: 8px;
+}
+
+h1,
+p,
+#breaktime,
+#worktime {
+  color: #fff;
+  display: inline-block;
+}
+
+#subtractBreak,
+#addBreak,
+#subtractWork,
+#addWork {
+  cursor: pointer;
+  margin: 0;
+  padding: 2px 9px;
+  font-size: 35px;
+}
+
+#subtractBreak:hover,
+#addBreak:hover,
+#subtractWork:hover,
+#addWork:hover {
+  color: #cc0000;
+  text-shadow: 0 1px 1px #cc0000;
+}
+
+#subtractBreak:active,
+#addBreak:active,
+#subtractWork:active,
+#addWork:active {
+  color: #fff;
+}
+
+#timer-box {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #a9a9a9;
+  padding: 14px 15px 2px;
+  box-shadow: inset 0 0 5px 5px #999;
+  border-radius: 50px;
+  opacity: 0.6;
+}
+
+#timer-box:hover {
+  background-color: #c0c0c0;
+  text-shadow: 0 1px 1px #cc0000;
+}
+
+#timer-box:active {
+  background-color: #a9a9a9;
+}
+
+#timer-container {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.full-container {
+  display: inline-block;
+}
+
+.setting-container {
+  display: inline-block;
+  float: left;
+  padding: 0 30px 0;
+}
+
+.setting-box {
+  display: inline-block;
+}
+
+#subtractBreak,
+#breaktime,
+#addBreak,
+#subtractWork,
+#worktime,
+#addWork {
+  float: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
